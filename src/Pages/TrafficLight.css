@@ -1,0 +1,46 @@
+.main-2 {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(72, 148, 113, 0.438);
+}
+
+.content-2 {
+    width: 8rem;
+    height: 40%;
+    border-radius: 15px;
+    background-color: black;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px;
+    box-shadow: 3px 3px 3px black;
+    box-sizing: content-box;
+}
+
+button {
+    padding: 1em;
+    border: none;
+    margin: 2rem;
+    background-color: rgb(92, 155, 155);
+}
+
+button:hover {
+    box-shadow: 3px 3px 10px yellow;
+}
+
+.myCount {
+    font-size: 24px;
+    border-radius: 0 15px 15px 0;
+    color: rgb(173, 155, 50);
+    height: 4rem;
+    border: 2px groove rgb(167, 167, 5);
+    padding: 2rem;
+    margin: 2px;
+    box-shadow: 3px 3px 10px rgb(245, 245, 166);
+    background-color: rgb(212, 212, 135);
+}
